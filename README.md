@@ -86,27 +86,6 @@ Using SQL and Tableau, this project delivers:
 
 ---
 
-## 🗂️ Project Structure
-
-ecommerce-user-behavior-project/
-├── data/                   # Raw, cleaned, and chunked datasets
-├── docs/                  # ERDs, documentation, visuals (optional)
-├── exports/
-│   └── tableau/
-│       ├── analysis/      # CSVs for analysis charts
-│       └── kpis/          # CSVs for KPI visualizations
-├── python/
-│   ├── cleaning-and-eda/
-│   └── scripts/           # Data chunking + export to CSV
-├── sql/
-│   ├── analysis/          # SQL queries for each analysis
-│   └── kpis/              # SQL for calculated KPIs
-├── tableau/
-│   └── dashboards/        # .twb/.twbx files (excluded from GitHub)
-└── README.md
-
----
-
 ## 📈 Dashboard Preview
 
 📊 [Live Dashboard on Tableau Public](https://public.tableau.com/views/EcommerceUserBehaviorOctober2019AnalysisDashboard/EcommerceUserBehaviorOctober2019Analysis)
