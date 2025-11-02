@@ -1,0 +1,18 @@
+# Raw and intermediate data
+data/data-raw/
+data/data-cleaned/
+data/data-chunks/
+
+# CSV exports
+exports/tableau/**/*.csv
+
+# System / env files
+.DS_Store
+.venv/
+__pycache__/
+*.pyc
+
+# Tableau files
+*.twbx
+*.tds
+*.tdsx
